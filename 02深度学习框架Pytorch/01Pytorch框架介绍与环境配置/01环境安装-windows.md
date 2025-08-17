@@ -39,8 +39,9 @@ conda remove -n py36 --all
 ```
 
 ### jupyter notebook基本使用
-
-想要使用哪个目录，就直接进入对应目录下，输入以下命令
+* jupyter notebook是anaconda下的功能，依赖anaconda自带的python环境
+* 当使用jupyter notebook调试代码时，需要在anaconda自带的python环境中安装对应的依赖包
+* 想要使用哪个目录，就直接进入对应目录下，输入以下命令
 
 ```shell
 
@@ -80,7 +81,7 @@ Pycharm,Cursor,Visual Code都可,不限定版本
 
 ```shell
 
-pip install torch==1.10.1
+pip install torch==1.10.1 -i https://download.pytorch.org/whl/torch_stable.html
 
 ```
 
