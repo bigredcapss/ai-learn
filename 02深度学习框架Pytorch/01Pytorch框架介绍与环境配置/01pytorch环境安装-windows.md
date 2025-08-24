@@ -39,6 +39,7 @@ conda remove -n py36 --all
 ```
 
 ### jupyter notebook基本使用
+
 * jupyter notebook是anaconda下的功能，依赖anaconda自带的python环境
 * 当使用jupyter notebook调试代码时，需要在anaconda自带的python环境中安装对应的依赖包
 * 想要使用哪个目录，就直接进入对应目录下，输入以下命令
@@ -69,6 +70,8 @@ Pycharm,Cursor,Visual Code都可,不限定版本
 
 > pytorch官网: https://pytorch.org/get-started/locally/
 > 资源下载: https://download.pytorch.org/whl/
+>
+> 依赖包下载：https://pypi.org/
 
 ### cuda与torch与torchversion版本对应关系
 
@@ -82,6 +85,8 @@ Pycharm,Cursor,Visual Code都可,不限定版本
 ```shell
 
 pip install torch==1.10.1 -i https://download.pytorch.org/whl/torch_stable.html
+
+ pip3 install torchvision -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ```
 
