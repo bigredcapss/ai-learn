@@ -25,7 +25,7 @@ def predict_result(image_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Classification demo')
-    parser.add_argument('--file', default='./flower_data/train_filelist/image_06998.jpg', type=str, help='test image file')
+    parser.add_argument('--file', default='../06DataLoader自定义数据集制作/flower_data/train_filelist/image_06998.jpg', type=str, help='test image file')
 
     args = parser.parse_args()
     predict_result(args.file)
